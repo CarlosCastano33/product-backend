@@ -9,8 +9,9 @@ POST http://localhost:8080/api/productos
 Content-Type: application/json
 
 {
-    "nombre": "Producto 2",
-    "precio": 20500
+    "nombre": "Producto 1",
+    "precio": 20504
 }
 
 ###
+DELETE http://localhost:8080/api/productos/1
